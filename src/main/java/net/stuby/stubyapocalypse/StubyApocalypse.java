@@ -62,7 +62,9 @@ public class StubyApocalypse
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BARBED_WIRE.get(), RenderType.cutout());
 
         }
     }
+
 }

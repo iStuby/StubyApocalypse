@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GUNPARTS.get());
 
+                        output.accept(ModBlocks.BARBED_WIRE.get());
+
                     })
                     .build());
 
